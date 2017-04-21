@@ -1,0 +1,46 @@
+*{margin: 0; padding:0;}
+ol,ul,li{list-style:none;}
+a,u{text-decoration:none;}
+.header a{color:#b4bcc8;}
+.left a{color:#b4bcc8;}
+body{font-size: 14px;font-family: "Roboto Condensed", sans-serif;padding-bottom: 100px;}
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+.clearfix{zoom:1;}
+/*font{color:  #b4bcc8;}*/
+/*button*/
+.btn{cursor:pointer;display: inline-block;text-align: center;border: solid 1px transparent;padding: 5px 14px;border-radius: 2px;background: none;font-size: 13px;border-radius: 3px;line-height: 15px;}
+input.btn-green{background-color:#1caf9a ;color: #ffffff;height: 30px;line-height: 15px;}
+.btn-green{background-color:#1caf9a ;color: #ffffff;}
+.btn-green:hover{background-color: #26a69a;}
+input.btn-gray{border:solid 1px #ddd;color: #333333;height: 30px;line-height: 15px;}
+.btn-gray{border:solid 1px #ddd;color: #333333;}
+.btn-gray:hover{background-color: #d3d3d3;}
+.btn-center{text-align: center;}
+
+.btn_1{cursor:pointer;display: inline-block;text-align: center;border: solid 1px transparent;padding: 5px 14px;border-radius: 2px;background: none;font-size: 13px;border-radius: 3px;}
+.btn_1-green{background-color:#1caf9a ;color: #ffffff;}
+.btn_1-green:hover{background-color: #26a69a;}
+.btn_1-gray{border:solid 1px #ddd;color: #333333;}
+.btn_1-gray:hover{background-color: #d3d3d3;}
+.btn_1-center{text-align: center;}
+/*input*/
+input,textarea,select{outline: none;font-size: 12px;}
+input[type="text"]{padding-left: 10px; font-size: 12px;font-weight: normal;border: solid 1px #E5E5E5;color: #333333;background-color: #ffffff;
+    width: 355px;
+    height: 29px;}
+input[type="password"]{padding-left: 10px; font-size: 12px;font-weight: normal;border: solid 1px #E5E5E5;color: #333333;background-color: #ffffff;
+    width: 355px;
+    height: 29px;}
+.input-big{width: 310px;}
+input[type="text"].input-small{width: 160px;}
+h2{font-size: 14px;height: 40px;font-weight: normal;line-height: 40px; color: #000000;background-color: #f7f7f7;margin: 25px 20px 15px 20px;padding-left: 20px;}
+h2 a{color: #333333;}
+select{
+    width: 365px;
+    height: 30px;line-height: 30px;background-color:#fff;border: solid 1px #d5d5d5;}
+.das-tab ul li p.p_radio input[type='checkbox']{display: inline-block;vertical-align: text-top;width: 14px;height: 14px;}
+.das-tab ul li p.p_radio label{line-height: 30px;margin:0 10px 0 5px;display: inline-block}
+/*label input{width: 30px;}*/
+.link-font{color: #1caf9a;line-height: 30px;cursor: pointer;}
+.link-left{margin-left: 20px;}
+.btn_margin{margin-right: 5px;}
